@@ -1,0 +1,18 @@
+smsc:
+  address: localhost
+  port: 2775
+bind:
+  system_id: "username"
+  password: "password"
+  interface_version: 52
+sms:
+  source_addr: 10
+  destination_addr: 5520999999999
+  short_message: test
+test:
+  sms_per_second : 1
+  sms_total : 1
+  increment_source_addr : false
+  increment_destination_addr : false
+  increment_source_addr_variation : 0
+  increment_destination_addr_variation : 0

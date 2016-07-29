@@ -1,0 +1,16 @@
+{
+  "name": "node-smpp-test-tool",
+  "version": "0.0.1",
+  "description": "Tool that simulates a smpp client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauro Ramos Moura <mauro.moura.7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rx": "^4.1.0",
+    "smpp": "^0.3.1",
+    "yamljs": "^0.2.8"
+  }
+}
